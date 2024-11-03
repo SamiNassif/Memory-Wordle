@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gameBoard.style.display = 'none';
         gameBoard.innerHTML = '';
         //Resets attempts back to 0 even after player has left over attempts from their game
-        attemptsDisplay.textContent = `Attempts left: `;
+        attemptsDisplay.textContent = `Attempts left: ${0}`;
     }
 
     function shuffleArray(array) {
